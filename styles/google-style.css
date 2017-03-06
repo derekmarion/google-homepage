@@ -1,50 +1,56 @@
-body {
-	text-align: center;
+div {
+	margin: auto;
 }
 
-#logo {
-	height: 231px;
-	margin-top: 45px;
-	text-align: -webkit-center;
+.center {
+	display: block;
+	margin: auto;
 }
 
-img#hplogo {
-	padding-top: 112px;
+img#glogo {
+	max-width: 100%;
+	max-height: 100%;
 }
 
-#f {
-	height: 40px; 
-}
-
-form {
-	height: 39px;
-}
-
-#fkbx {
-	background-color: #fff;
-	border:1px solid rgb(185,185,185);
-	border-radius: 1px;
-	border-top-color: rgb(160,160,160);
-	cursor: text;
-	display: inline-block;
-	font: 18px arial, sans-serif;
-	height: 36px;
-	line-height: 36px;
-	max-width: 672px;
-	position: relative;
-	width: 618px;
-}
-
-input {
-	background: transparent;
-	border: none;
-	bottom: 0;
-	box-sizing: border-box;
-	left: 0;
-	margin: 0;
-	outline: none;
-	padding: 0 8px;
-	position: absolute;
-	top: 2px;
+div#logo {
 	width: 100%;
+	position: absolute;
+	top: 150px;
+	height: 100px;
 }
+
+div#searchbar {
+	width: 100%;
+	position: absolute;
+	top: 275px;
+	height: 45px;
+}
+
+input#searchbar {
+	width: 400px;
+	height: 42px;
+	font-size: 16px;
+}	
+
+ul {
+	float: right;
+	list-style-type: none;
+	margin: 20px 0px 0px 0px;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	margin: 0px 10px 0px 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-size: 13.3px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
