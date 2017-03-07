@@ -16,7 +16,6 @@ div {
 
 .stack {
 	width:100%;
-/*	position: absolute; */
 }
 
 .center {
@@ -27,6 +26,9 @@ div {
 .icon {
 	width: 17px;
 	opacity: 0.5;
+}
+div#navbar {
+	height: 50px;
 }
 
 .icon:hover {
@@ -39,7 +41,8 @@ img#glogo {
 }
 
 div#searchbuttons {
-	top: 350px;
+	margin-top: 20px;
+	height: 40px;
 }
 
 .searchbutton {
@@ -70,13 +73,13 @@ input#rightbutton {
 }
 
 div#logo {
-	top: 150px;
 	height: 100px;
+	margin-top: 150px;
 }
 
 div#searchbar {
-	top: 275px;
 	height: 45px;
+	margin-top: 30px;
 }
 
 input#searchbar {
@@ -109,7 +112,11 @@ a:hover {
 
 .footer {
 	background-color: #f2f2f2;
+	min-width: 650px;
 	border-top: 1px solid #e4e4e4;
+}
+.push {
+	margin-top: 20px;
 }
 
 .footer, .push {
@@ -118,8 +125,10 @@ a:hover {
 
 div#footerleft {
 	float: left;
+	padding: 0 0 20px 10px;
 }
 
 div#footerright {
 	float: right;
+	padding: 0 20px 10px 0;
 }
